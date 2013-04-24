@@ -4,7 +4,7 @@ name := "$name;format="normalize"$"
 
 version := "0.1.0-SNAPSHOT"
 
-scalaVersion := "2.10.1"
+scalaVersion in ThisBuild := "2.10.1"
 
 libraryDependencies in ThisBuild ++= Seq(
   "ch.qos.logback" % "logback-classic" % "1.0.9",
