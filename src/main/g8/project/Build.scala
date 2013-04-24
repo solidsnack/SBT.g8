@@ -13,13 +13,8 @@ object $name;format="Camel"$Build extends Build {
     base = file("."),
     settings = commonSettings
   ) aggregate(
-    baseModels,
-    geometry,
-    util,
-    translatorsBatik,
-    translatorsJTS,
-    translatorsTeigha,
-    translatorsTransform
+    core,
+    util
   )
 
   lazy val core = Project(
