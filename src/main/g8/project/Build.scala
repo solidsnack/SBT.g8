@@ -6,7 +6,7 @@ import org.scalastyle.sbt.ScalastylePlugin
 import com.typesafe.sbt.SbtScalariform._
 import scalariform.formatter.preferences._
 
-object "$name;format="Camel"$"Build extends Build {
+object $name;format="Camel"$Build extends Build {
 
   lazy val root = Project(
     id = "root",
