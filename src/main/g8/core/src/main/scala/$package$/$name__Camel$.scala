@@ -1,4 +1,4 @@
-package $package$.$name;format="lower"$
+package $package$
 
 class $name;format="Camel"$ {
   // Code goes here

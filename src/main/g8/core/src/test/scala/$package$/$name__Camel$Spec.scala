@@ -1,4 +1,4 @@
-package $package$.$name;format="lower"$
+package $package$
 
 import org.scalatest.FlatSpec
 import org.scalatest.matchers.ShouldMatchers
